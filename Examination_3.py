@@ -6,4 +6,8 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-score = int(input())
+score = int(input("กรอกคะแนนสอบ :"))
+if score >=50 :
+    print("Pass :")
+if score <50 :
+    print("Fail :")
