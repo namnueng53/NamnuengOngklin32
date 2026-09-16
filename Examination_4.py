@@ -7,4 +7,15 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-score = int(input())
+score = int(input("คะแนนสอบ :"))
+if score >=80 :
+    print("A")
+if score >=70 :
+    print("B")
+if score >=60 :
+    print("C")
+if score >=50 :
+    print("D")
+if score <50 :
+    print("F")
+else :
